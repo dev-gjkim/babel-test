@@ -47,9 +47,10 @@ yarn add @babel/core @babel/cli
     ```json
     //package.json
     {
-    	....,
-    	scripts:{ // 
-    		"build": babel {targetDirectory} -w -d {outDirectory}"
+    	//....,
+    	"scripts":{ 
+    		"build": "babel {targetDirectory} -w -d {outDirectory}"
+            }
     }
     ```
     
